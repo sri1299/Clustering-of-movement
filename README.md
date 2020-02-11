@@ -8,4 +8,4 @@ Then each trajectory is represented by a feature vector of average gradient, dis
    ### Noise data. Values are abnormally high.
    ## Cluster 1
    ### Land movement. This could be further clustered into various land vehicles car/bus/train
-   ![Alt text](cluster_1.png?raw=true "Land movement trajectory")
+   ![Alt text](https://github.com/sri1299/Clustering-of-movement/blob/master/car-bus-train.png")
