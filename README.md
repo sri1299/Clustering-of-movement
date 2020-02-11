@@ -4,19 +4,8 @@ Dataset: https://www.microsoft.com/en-us/download/details.aspx?id=52367&from=htt
 The dataset contains GPS logs of various users (latitude, longitude, altitude and timestamp). This is converted to cartesian. 
 Then each trajectory is represented by a feature vector of average gradient, distance, average altitude, etc. K-Means (centroid-based Euclidean) clustering algorithm is applied with k=5.
 # Clusters Desciption
-## Cluster 0: 
-    ### This cluster should be junk because of very less number of trajectories and abnormal values 
-    of speed and distance.
-
-## Cluster 1:
-    ### Land Movement in Car/Train/Bus. This could be further clustered into various types of land vehicles.
-    
-    ![Alt text](cluster_1.png?raw=true "Map showing trajectory of movement in land vehicle")
-## Cluster 2: 
-    ### Foot Movement. Low speed and small distance.
-
-## Cluster 3:
-    ### Movement in air. High speed and altitude.
-
-## Cluster 4:
-    ### Movement in Hilly region, high altitude.
+   ## Cluster 0
+   ### Noise data. Values are abnormally high.
+   ## Cluster 1
+   ### Land movement. This could be further clustered into various land vehicles car/bus/train
+   ![Alt text](cluster_1.png?raw=true "Land movement trajectory")
