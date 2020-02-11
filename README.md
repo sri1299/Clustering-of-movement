@@ -5,6 +5,7 @@ The dataset contains GPS logs of various users (latitude, longitude, altitude an
 Then each trajectory is represented by a feature vector of average gradient, distance, average altitude, etc. K-Means (centroid-based Euclidean) clustering algorithm is applied with k=5.
 
 [code for clustering](Clustering_MSGPS.ipynb)
+![clustering code image](Clustering.png?raw=true)
 # Clusters Desciption
    ## Cluster 0
    ### Noise data. Values are abnormally high.
