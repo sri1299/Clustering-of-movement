@@ -9,7 +9,7 @@ Then each trajectory is represented by a feature vector of average gradient, dis
 
 ## Cluster 1:
     Land Movement in Car/Train/Bus. This could be further clustered into various types of land vehicles.
-    ![Moving in car/bus]('https://github.com/sri1299/Clustering-of-movement/blob/master/cluster_1.png')
+    ![Alt text](cluster_1.png?raw=true "Map showing trajectory of movement in land vehicle")
 ## Cluster 2: 
     Foot Movement. Low speed and small distance.
 
