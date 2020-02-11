@@ -4,11 +4,12 @@ The dataset contains GPS logs of various users (latitude, longitude, altitude an
 Then each trajectory is represented by a feature vector of average gradient, distance, average altitude, etc. K-Means (centroid-based Euclidean) clustering algorithm is applied with k=5.
 # Clusters Desciption
 ## Cluster 0: 
-    This cluster should be junk because of very less number of trajectories and abnormal values of speed and distance.
+    This cluster should be junk because of very less number of trajectories and abnormal values 
+    of speed and distance.
 
 ## Cluster 1:
     Land Movement in Car/Train/Bus. This could be further clustered into various types of land vehicles.
-
+    ![Moving in car/bus](/cluster_1.png)
 ## Cluster 2: 
     Foot Movement. Low speed and small distance.
 
