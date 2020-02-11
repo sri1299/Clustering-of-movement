@@ -4,7 +4,7 @@ Dataset: https://www.microsoft.com/en-us/download/details.aspx?id=52367&from=htt
 The dataset contains GPS logs of various users (latitude, longitude, altitude and timestamp). This is converted to cartesian. 
 Then each trajectory is represented by a feature vector of average gradient, distance, average altitude, etc. K-Means (centroid-based Euclidean) clustering algorithm is applied with k=5.
 
-[clustering](Clustering_MSGPS.ipynb)
+[clustering results](Clustering_MSGPS.ipynb)
 # Clusters Desciption
    ## Cluster 0
    ### Noise data. Values are abnormally high.
