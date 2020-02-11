@@ -10,11 +10,11 @@ Then each trajectory is represented by a feature vector of average gradient, dis
    ### Land movement. This could be further clustered into various land vehicles car/bus/train
    ![car/bus/train trajectory](car-bus-train.png?raw=true")
    ## Cluster 2
-   ###
-   ![]()
+   ### Foot Movement. Due to the Low speed and small distance.
+   ![walking](walking.png?raw=true)
    ## Cluster 3
-   ###
-   ![]()
+   ### Air based movement. This has been inferred from the high altitude, speed and distance travelled.
+   ![flying vehicles trajectory](flying.png?raw=true)
    ## Cluster 4
-   ###
-   ![]()
+   ### Movement in Hilly region, hence the high altitude and moderate speed.
+   ![hilly region](hilly.png?raw=true)
